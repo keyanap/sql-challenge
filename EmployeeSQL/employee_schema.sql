@@ -9,7 +9,7 @@ CREATE TABLE employees (
 	emp_title_id VARCHAR (5) references titles(title_id),
 	birth_date DATE,
 	first_name VARCHAR (30),
-	last_nast VARCHAR (30),
+	last_name VARCHAR (30),
 	sex VARCHAR (1),
 	hire_date DATE);
 
